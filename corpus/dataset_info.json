@@ -1,0 +1,45 @@
+{
+  "builder_name": "scifact",
+  "citation": "",
+  "config_name": "corpus",
+  "dataset_size": 7874970,
+  "description": "FIQA Dataset",
+  "download_checksums": {
+    "corpus.jsonl.gz": {
+      "num_bytes": 2758600,
+      "checksum": null
+    }
+  },
+  "download_size": 2758600,
+  "features": {
+    "_id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "title": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "text": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 10633570,
+  "splits": {
+    "corpus": {
+      "name": "corpus",
+      "num_bytes": 7874970,
+      "num_examples": 5183,
+      "dataset_name": "scifact"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
